@@ -2,16 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import Hello from './Hello';
-import CardList from './CardList';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import { players } from './players';  
+ 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>Real Friends</h1>
-    <CardList players={players}/>
+    <App />
   </React.StrictMode>
 );
 
