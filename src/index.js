@@ -4,7 +4,8 @@ import './index.css';
 // import Hello from './Hello';
 import Card from './Card';
 import reportWebVitals from './reportWebVitals';
-import 'tachyons';  
+import 'tachyons';
+import { players } from './players';  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
