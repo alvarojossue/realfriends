@@ -3,12 +3,13 @@ import './Card.css'
 
 class Card extends Component {
     render() {
+        const playerInfo = this.props
         return (
-            <div className='bg-light-blue dib br3 pa3 ma2 grow bw2 shadow-5'>
-                <img src='https://www.realmadrid.com/img/vertical_380px/benzema_av38083_20220809044617.jpg' alt='player'/>
+            <div className='tc bg-light-blue dib br3 pa3 ma2 grow bw2 shadow-5 fl w-20'>
+                <img src={playerInfo.imgUrl} alt='player'/>
                 <div>
-                        <h2>Jane Doe</h2>
-                        <p>jane@gmail.com</p>
+                        <h2>{playerInfo.name}</h2>
+                        <p>{playerInfo.instagram}</p>
                 </div>
             </div>
         );
