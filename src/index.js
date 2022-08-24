@@ -4,12 +4,22 @@ import './index.css';
 // import Hello from './Hello';
 import Card from './Card';
 import reportWebVitals from './reportWebVitals';
-// import 'tachyons';  
+import 'tachyons';  
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Card />
+    <div>
+      <h1>Real Friends</h1>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </div>
   </React.StrictMode>
 );
 

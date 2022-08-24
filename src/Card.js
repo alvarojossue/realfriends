@@ -4,8 +4,8 @@ import './Card.css'
 class Card extends Component {
     render() {
         return (
-            <div>
-                <img className= 'imgPlayer' src='https://www.realmadrid.com/cs/Satellite?blobcol=urldata&blobheader=image%2Fpng&blobkey=id&blobtable=MungoBlobs&blobwhere=1203428812555&ssbinary=true' alt='player'/>
+            <div className='bg-light-blue dib br3 pa3 ma2 grow bw2 shadow-5'>
+                <img src='https://www.realmadrid.com/img/vertical_380px/benzema_av38083_20220809044617.jpg' alt='player'/>
                 <div>
                         <h2>Jane Doe</h2>
                         <p>jane@gmail.com</p>
