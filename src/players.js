@@ -49,7 +49,7 @@ export const players = [
   },
   {
     id: 7,
-    name: 'D. Ceballos',
+    name: 'Ceballos',
     number: 19,
     position: 'Midfielder',
     instagram: '@danifuli10',

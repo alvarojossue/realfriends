@@ -5,11 +5,11 @@ class Card extends Component {
     render() {
         const playerInfo = this.props
         return (
-            <div className='tc bg-light-blue dib br3 pa3 ma2 grow bw2 shadow-5 fl w-20'>
+            <div className='tc bg-light-blue dib br3 pa2 ma2 grow bw2 shadow-5'>
                 <img src={playerInfo.imgUrl} alt='player'/>
                 <div>
                         <h2>{playerInfo.name}</h2>
-                        <p>{playerInfo.instagram}</p>
+                        <p className='f5 avenir'>{playerInfo.instagram}</p>
                 </div>
             </div>
         );
