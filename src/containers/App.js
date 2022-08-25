@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
+import Footer from '../components/Footer';
 import { players } from '../components/players'; 
 import './App.css';
 
@@ -34,8 +35,8 @@ class App extends Component {
             <CardList players={filteredPlayers}/>
           </Scroll>
         </div>
-        <div className='tc washed-blue avenir '>
-          <p>Made with 14 Champions League Trophies</p>
+        <div className='tc avenir'>
+          <Footer />
         </div>
       </div>
       );
