@@ -20,8 +20,9 @@ class App extends Component {
   }
 
   render() {
-    const filteredPlayers = this.state.players.filter(player => {
-      return player.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+    const { players, searchfield } = this.state;
+    const filteredPlayers = players.filter(player => {
+      return player.name.toLowerCase().includes(searchfield.toLowerCase());
     })
       return (
       <div>
