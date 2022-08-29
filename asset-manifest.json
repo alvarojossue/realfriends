@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/realfriends/static/css/main.66ebd368.css",
+    "main.js": "/realfriends/static/js/main.10d64fd0.js",
+    "static/js/787.7cb25210.chunk.js": "/realfriends/static/js/787.7cb25210.chunk.js",
+    "index.html": "/realfriends/index.html",
+    "main.66ebd368.css.map": "/realfriends/static/css/main.66ebd368.css.map",
+    "main.10d64fd0.js.map": "/realfriends/static/js/main.10d64fd0.js.map",
+    "787.7cb25210.chunk.js.map": "/realfriends/static/js/787.7cb25210.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66ebd368.css",
+    "static/js/main.10d64fd0.js"
+  ]
+}
